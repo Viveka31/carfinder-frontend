@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://your-carfindr-api.onrender.com/api/$1" },
+    { "source": "/api/(.*)", "destination": "https://carfinder-backend-zfo1.onrender.com/api/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "buildCommand": "npm run build",
