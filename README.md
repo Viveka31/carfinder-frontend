@@ -4,6 +4,15 @@
 Frontend: https://carfinder-frontend-gwtc812yt-viveka-ks-projects.vercel.app/
 Backend: https://carfinder-backend-zfo1.onrender.com/
 
+## local deployment
+# Backend
+cd carfindr-backend && npm install && cp .env.example .env
+# fill MONGODB_URI, then:
+npm run seed && npm run dev
+
+# Frontend (new terminal)
+cd carfindr-frontend && npm install && npm run dev
+
 ## Github
 Frontend: https://github.com/Viveka31/carfinder-frontend
 Backend: https://github.com/Viveka31/carfinder-backend
